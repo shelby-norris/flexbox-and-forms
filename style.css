@@ -104,6 +104,10 @@ form {
     padding: 40px;
 }
 
+.mandatory {
+    color: red;
+}
+
 button {
     text-align: center;
     width: 70px;
