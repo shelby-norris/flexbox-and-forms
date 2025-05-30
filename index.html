@@ -9,13 +9,62 @@
   </head>
   <body>
     <header>
-      <h1>Flexbox & Forms</h1>
+      <h1><span class="Flexbox">Flexbox</span>& Forms</h1>
     </header>
     <main>
       <div class="container">
         <div class="box box1"></div>
         <div class="box box2"></div>
         <div class="box box3"></div>
+      </div>
+      <div class="paragraph">
+        <p>
+          In this course, we've learned a lot more than just coding, we've
+          learned about many tools to help us with styling. One of my favorites
+          is <a href="https://coolors.co/">Coolors</a>! The random generator is
+          perfect for when you're unsure how you want your site to look, and the
+          trending palettes section allows you to see what's currently popular
+          among other users.
+        </p>
+      </div>
+      <div>
+        <form>
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="Enter your first name"
+            autofocus
+          />
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            placeholder="Enter your last name"
+            autofocus
+          />
+          <label for="email">Email Address</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+            autofocus
+          />
+          <label for="pword">Password</label>
+          <input
+            type="password"
+            id="pword"
+            name="pword"
+            placeholder="Enter your password"
+            required
+            autofocus
+          />
+          <button>Submit</button>
+        </form>
       </div>
     </main>
   </body>
