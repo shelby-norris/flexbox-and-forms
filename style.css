@@ -13,11 +13,20 @@ body {
 
 main {
     min-height: 80vh;
+    margin: 0px 100px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    padding: 0px 100px;
+    padding-bottom: 100px;
 }
 
 header {
     text-align: center;
-    margin-top: 40px;
+    margin: 40px 0px;
+}
+
+h1 {
+    margin: 50px 0px;
 }
 
 .Flexbox {
@@ -43,7 +52,7 @@ header {
     display: flex;
     gap: 30px;
     justify-content: center;
-    margin: 50px;
+    /* margin: 50px; */
     padding: 20px;
 }
 
@@ -92,7 +101,7 @@ form {
     font-family: Noto Sans;
     font-size: small;
     min-width: 30vw;
-    min-height: 30vh;
+    min-height: 40vh;
 }
 
 .flex-form {
