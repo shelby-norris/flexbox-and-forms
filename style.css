@@ -13,11 +13,6 @@ body {
 
 main {
     min-height: 80vh;
-    margin: 0px 100px;
-    margin-top: 20px;
-    margin-bottom: 100px;
-    padding: 0px 100px;
-    padding-bottom: 100px;
 }
 
 header {
@@ -52,7 +47,6 @@ h1 {
     display: flex;
     gap: 30px;
     justify-content: center;
-    /* margin: 50px; */
     padding: 20px;
 }
 
@@ -88,6 +82,8 @@ p {
     line-height: 1.5;
 }
 
+/* S */
+
 .paragraph {
     display: flex;
     justify-content: center;
@@ -95,6 +91,7 @@ p {
     padding: 75px;
     border-radius: 40px;
     background-color: #cffaf4;
+    /* max-width: 50%;S */
 }
 
 form {
