@@ -1,132 +1,141 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Knewave&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 body {
-    min-width: 100vw;
-    min-height: 100vh;
+  min-width: 100vw;
+  min-height: 100vh;
 }
 
 main {
-    min-height: 80vh;
+  min-height: 80vh;
 }
 
 header {
-    text-align: center;
-    margin: 40px 0px;
+  text-align: center;
+  margin: 40px 0px;
 }
 
 h1 {
-    margin: 50px 0px;
+  margin: 50px 0px;
 }
 
 .Flexbox {
-    font-family: Knewave;
-    font-size: 500%;
-    color: #4A314D;
+  font-family: Knewave;
+  font-size: 500%;
+  color: #4a314d;
 }
 
 .and {
-    font-family: Noto Sans;
-    font-size: 300%;
-    color: #95C623;
-    padding: 15px;
+  font-family: Noto Sans;
+  font-size: 300%;
+  color: #95c623;
+  padding: 15px;
 }
 
 .Forms {
-    font-family: Courier Prime;
-    font-size: 500%;
-    color: #0E4749;
+  font-family: Courier Prime;
+  font-size: 500%;
+  color: #0e4749;
 }
 
 .container {
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-    padding: 20px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding: 20px;
 }
 
 .box {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
 .box1 {
-    background-color: #0E4749;
+  background-color: #0e4749;
 }
 
 .box2 {
-    background-color: #95C623;
+  background-color: #95c623;
 }
 
 .box3 {
-    background-color: #4A314D;
+  background-color: #4a314d;
 }
 
 a:link {
-    text-decoration: none;
-    color: #4A314D;
+  text-decoration: none;
+  color: #4a314d;
 }
 
 a:hover {
-    text-decoration: underline;
-    color: #95C623;
+  text-decoration: underline;
+  color: #95c623;
 }
 
 p {
-    font-family: Noto Sans;
-    line-height: 1.5;
+  font-family: Noto Sans;
+  line-height: 1.5;
+  text-align: left;
 }
 
-/* S */
-
 .paragraph {
-    display: flex;
-    justify-content: center;
-    margin: 75px;
-    padding: 75px;
-    border-radius: 40px;
-    background-color: #cffaf4;
-    /* max-width: 50%;S */
+  margin: 75px auto;
+  padding: 40px;
+  border-radius: 40px;
+  background-color: #cffaf4;
+  max-width: 800px;
+  width: 90%;
 }
 
 form {
-    font-family: Noto Sans;
-    font-size: small;
-    min-width: 30vw;
-    min-height: 40vh;
+  font-family: Noto Sans;
+  font-size: small;
+  min-width: 30vw;
+  min-height: 40vh;
 }
 
 .flex-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    border-radius: 30px;
-    background-color: #cffaf4;
-    padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 30px;
+  background-color: #cffaf4;
+  padding: 40px;
 }
 
 .mandatory {
-    color: red;
+  color: red;
 }
 
 button {
-    text-align: center;
-    width: 70px;
+  text-align: center;
+  width: 70px;
 }
 
 .btn-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 footer {
-    text-align: center;
-    font-family: Noto Sans;
-    font-size: small;
+  text-align: center;
+  font-family: Noto Sans;
+  font-size: small;
+}
+
+
+@media (max-width: 600px) {
+    .paragraph {
+        padding: 20px;
+        margin: 40px auto;
+    }
+
+    .paragraph p {
+        font-size: 1rem;
+        text-align: justify;
+    }
 }
